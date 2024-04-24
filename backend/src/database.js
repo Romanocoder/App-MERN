@@ -4,9 +4,7 @@ const URI = process.env.MONGODB_URI ? process.env.MONGODB_URI : "mongodb://local
 
 //mongoose es una dependencia que permite la conexion con una 
 //base de datos de mongoDB
-mongoose.connect(URI, {
-
-});
+mongoose.connect(URI, {});
 
 const connection = mongoose.connection;
 

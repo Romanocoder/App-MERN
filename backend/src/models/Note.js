@@ -5,13 +5,13 @@ const noteSchema = new Schema(
     title: String,
     content: {
       type: String,
-      required: true
+      required: true,
     },
     author: String,
     date: {
       type: Date,
-      default: Date.now
-    }
+      default: Date.now,
+    },
   },
   {
     timestamps: true,
